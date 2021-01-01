@@ -54,3 +54,12 @@ html{
 .bg-menu{
     background-color: rgba(235, 232, 232, 0.726);
 }
+.img-large{
+    margin: 70px 0px;
+    padding: 0p;
+    height: 350px;
+    background-image: url(./img/fotoLocaleDentro.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -230px;
+}
