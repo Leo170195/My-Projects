@@ -1,0 +1,56 @@
+:root {
+    font-family: 'Darker Grotesque', sans-serif;
+} 
+html{
+    scroll-behavior: smooth;
+}
+.bg-nav{
+    background-color: rgba(0, 0, 0, 0.897) !important;
+}
+.color-nav{
+    color: white !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+.dropdown-item:hover{
+    color: black !important;
+}
+.conctact{
+    transition: 0.4s;
+}
+.conctact:hover{
+    transform: scale(2);
+}
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#sticky-footer {
+    flex-shrink: none;
+}
+.logo{
+    height: 50px;
+    width: 120px;
+    transition: 0.5s;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.mst{
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(255,142,3,1) 39%, rgba(255,0,0,1) 100%);
+}
+.navbar-toggler{
+    border: solid 2px white;
+}
+.description{
+    height: 300px;
+}
+.bg-menu{
+    background-color: rgba(235, 232, 232, 0.726);
+}
