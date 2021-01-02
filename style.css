@@ -63,3 +63,28 @@ html{
     background-size: cover;
     background-position-y: -230px;
 }
+.beverage{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+#beer{
+    background-image: url(./img/birreAllaSpina.jpeg);
+    background-size: cover;
+    background-position-x: -50px;
+}
+#vine{
+    background-image: url(./img/philomena.png);
+    background-size: cover;
+}
+#cocktail{
+    background-image: url(./img/spritzVerde.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+}
+#rum{
+    background-image: url(./img/botteRum.jpg);
+    background-size: cover;
+    background-position-y: -10px;
+    background-position-x: 20px;
+}
