@@ -5,7 +5,9 @@ html{
     scroll-behavior: smooth;
 }
 .bg-nav{
-    background-color: rgba(0, 0, 0, 0.897) !important;
+    background-image: url(./img/navbar1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .color-nav{
     color: white !important;
@@ -36,7 +38,7 @@ html{
 }
 .logo{
     height: 50px;
-    width: 120px;
+    width: 170px;
     transition: 0.5s;
 }
 .logo:hover{
