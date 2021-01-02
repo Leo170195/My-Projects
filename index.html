@@ -15,52 +15,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="d-none d-md-block navbar navbar-expand-md bg-nav shadow fixed-top">
-      <div class="container-fluid">
-        <div class="row align-bottom w-100">
-          <div class="col-2">
-            <a class="navbar-brand" href="index.html"><img class="logo" src="./img/insegna-tagliata.jpg" alt="logo"></a>
-              <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-hamburger text-light"></i>
-              </button> -->
+    <!-- nav-pc -->
+    <nav class="navbar navbar-expand-md bg-nav shadow fixed-top">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="./img/insegna-tagliata.jpg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-hamburger text-light"></i>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle color-nav lead" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menù</a>
+            <div class="dropdown-menu bg-nav color-nav" aria-labelledby="dropdown04">
+              <a class="dropdown-item" href="#antipasti"><i class="fas fa-bacon"></i> Antipati</a>
+              <a class="dropdown-item" href="#panini"><i class="fas fa-hamburger"></i> Panini</a>
+              <a class="dropdown-item" href="#carne"><i class="fas fa-drumstick-bite"></i> Carne</a>
+              <a class="dropdown-item" href="#primi"><i class="fas fa-utensils"></i> Primi</a>
+              <a class="dropdown-item" href="#beverage"><i class="fas fa-wine-glass-alt"></i> Beverage</a>
             </div>
-            <div class="col-10 pl-0 pt-2">
-            <div class="collapse navbar-collapse" id="navbarsExample04">
-              <ul class="navbar-nav ml-3">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle color-nav lead" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menù</a>
-                  <div class="dropdown-menu bg-nav color-nav" aria-labelledby="dropdown04">
-                    <a class="dropdown-item" href="#antipasti"><i class="fas fa-bacon"></i> Antipati</a>
-                    <a class="dropdown-item" href="#panini"><i class="fas fa-hamburger"></i> Panini</a>
-                    <a class="dropdown-item" href="#carne"><i class="fas fa-drumstick-bite"></i> Carne</a>
-                    <a class="dropdown-item" href="#primi"><i class="fas fa-utensils"></i> Primi</a>
-                    <a class="dropdown-item" href="#beverage"><i class="fas fa-wine-glass-alt"></i> Beverage</a>
-                  </div>
-                </li>
-              </ul>
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link color-nav" href="#map"><i class="fas fa-map-marked-alt"></i> Dove siamo</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-nav" href="#">Contattaci</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-nav conctact mx-2" href="https://www.facebook.com/Fuorigrotta-Beer-Food-2292034557729864"><i class="fab fa-facebook"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link color-nav conctact mx-2" href="https://api.whatsapp.com/send?phone=393287575595" title="Messaggia su WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                  </li>
-                    <a class="nav-link color-nav conctact mx-2" href="https://www.instagram.com/fuorigrotta_beer_food/"><i class="fab fa-instagram"></i></a>
-                  <li class="nav-item">
-                  </li>
-              </ul>
-            </div>
-
-          </div>
-        </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link color-nav" href="#map"><i class="fas fa-map-marked-alt"></i> Dove siamo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-nav" href="#">Contattaci</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-nav conctact mx-2" href="https://www.facebook.com/Fuorigrotta-Beer-Food-2292034557729864" target="_blank"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link color-nav conctact mx-2" href="https://api.whatsapp.com/send?phone=393287575595" title="Messaggia su WhatsApp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </li>
+              <a class="nav-link color-nav conctact mx-2" href="https://www.instagram.com/fuorigrotta_beer_food/"  target="_blank"><i class="fab fa-instagram"></i></a>
+            <li class="nav-item">
+            </li>
+        </ul>
       </div>
       </nav>
+
 
       <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -72,7 +65,7 @@
           </ol>
           <div class="carousel-inner" role="listbox">
             <!-- Slide One - Set the background image for this slide in the line below -->
-            <div class="carousel-item active" style="background-image: url('./img/fotoLocale.jpeg')">
+            <div class="carousel-item active" style="background-image: url('./img/ilFrenk.jpg')">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -86,7 +79,7 @@
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
-            <div class="carousel-item" style="background-image: url('./img/ilFrenk.jpg')">
+            <div class="carousel-item" style="background-image: url('./img/fotoLocale.jpeg')">
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
@@ -107,11 +100,18 @@
           <div class="col-12 my-5">
             <h2 class="text-center">Cosa offriamo</h2>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere perspiciatis mollitia iste excepturi quaerat aliquam incidunt, totam ex vitae dolor amet magnam, expedita sint repudiandae eaque provident in! Quas, inventore! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat esse hic consequatur iste neque quae quia aperiam, id unde cupiditate quis, assumenda aliquid odio laborum repellat veritatis ullam nostrum atque!</p>
-            <h3 class="text-center">Il nostro menu <i class="fas fa-utensils"></i></h3>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 col-lg-4 img-large2 d-none d-md-block"></div>
+          <div class="col-6 col-lg-4 img-large3 d-none d-md-block"></div>
+          <div class="col-lg-4 img-large4 d-none d-lg-block"></div>
+        </div>
+      </div>
       <div class="container-fluid"> 
+        <h3 class="text-center my-3">Il nostro menu <i class="fas fa-utensils"></i></h3>
           <div id="antipasti" class="row ">
             <div class="d-none d-md-block col-md-4 ml-5"><img class="img-fluid description" src="./img/provolaAffumicata.jpg" alt="selezione prodotti"></div>
             <div class="d-none d-md-block col-md-6 mt-5 pt-5">
@@ -184,9 +184,7 @@
         
         <div class="container-fluid">
           <div class="row">
-            <div class="col-12 d-none d-md-block img-large">
-              
-            </div>
+            <div class="col-12 d-none d-md-block img-large"></div>
           </div>
         </div>
       
