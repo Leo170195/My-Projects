@@ -9,6 +9,15 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.btn{
+    box-shadow: none;
+}
+.btn::focus{
+    box-shadow: none;
+}
+.btn:hover{
+    box-shadow: none;
+}
 .color-nav{
     color: white !important;
 }
