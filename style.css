@@ -53,9 +53,9 @@ html{
 .navbar-toggler{
     border: solid 2px white;
 }
-.description{
+/* .description{
     height: 300px;
-}
+} */
 .bg-menu{
     background-color: rgba(235, 232, 232, 0.726);
 }
