@@ -27,12 +27,6 @@ html{
 .dropdown-item:hover{
     color: black !important;
 }
-/* .conctact{
-    transition: 0.4s;
-}
-.conctact:hover{
-    transform: scale(2);
-} */
 .carousel-item {
     height: 90vh;
     min-height: 350px;
