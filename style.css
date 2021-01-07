@@ -66,7 +66,7 @@ html{
     background-image: url(./img/fotoLocaleDentro.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -230px;
+    background-position: center;
 }
 .img-large2{
     margin: 70px 0px;
